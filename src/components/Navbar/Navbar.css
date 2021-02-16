@@ -1,0 +1,38 @@
+.nav-menu {
+    width: 250px;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;    
+    background: linear-gradient(180deg, rgba(68,63,63,1) 0%, rgba(142,135,135,0.5214460784313726) 48%);
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 0.2s;
+    margin-left: 0;
+    display: contents;
+  }
+
+  .navbarSide {
+    
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 0.5s;
+    
+  }
+
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .teal-text {
+    color: #006696 !important;
+  }
