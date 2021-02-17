@@ -6,7 +6,7 @@ import "./Navbar.css";
 function Navbar(props) {
   return (
     <div>
-      <nav class="navbarSide" style={{ backgroundColor: "transparent" }}>
+      <nav class="navbarSide" style={{ backgroundColor: "white"}}>
            <a
             href="#Home"
             onClick={props.isActive}
