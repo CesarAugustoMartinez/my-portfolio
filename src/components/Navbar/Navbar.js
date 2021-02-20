@@ -1,24 +1,26 @@
 import React from "react";
 import navImage from "../../images/body-bg.png";
 import avatar from "../../images/Me.jpg";
+
 import "./Navbar.css";
 
 function Navbar(props) {
+
   return (
     <div>
-      <nav class="navbarSide" style={{ backgroundColor: "white"}}>
+      <nav className="navbarSide" style={{ backgroundColor: "white"}}>
            <a
             href="#Home"
             onClick={props.isActive}
-            class="menu-bars waves-effect waves-light circle"
+            className="menu-bars waves-effect waves-light circle"
           >
-            <i class="material-icons blue-text">menu</i>
+            <i className="material-icons blue-text">menu</i>
           </a>
-        <div class="name-title center-align" style={{flex: "auto"}}>
-          <a id="name" href="#main" class="teal-text">
+        <div className="name-title center-align" style={{flex: "auto"}}>
+          <a id="name" href="#main" className="teal-text">
             Cesar A. Martinez -{" "}
           </a>
-          <span class="blue-text light">Full Stack Developer</span>
+          <span className="blue-text light">Full Stack Developer</span>
         </div>
       </nav>
 
@@ -89,6 +91,7 @@ function Navbar(props) {
             <a
               href="#resumeModal"
               className="waves-effect waves-dark grey-text text-darken-3 modal-trigger"
+              onClick={props.modalOpen}
             >
               <i className="material-icons small text-darken-3">description</i>
               <span>Resume</span>
@@ -103,7 +106,7 @@ function Navbar(props) {
             </a>
           </li>
         </ul>
-      </nav>
+      </nav>  
     </div>
   );
 }
