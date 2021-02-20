@@ -2,12 +2,12 @@ import React from 'react'
 
 function About() {
     return (
-        <section id="about" class="section scrollspy full-height">
+        <section id="about" className="section scrollspy full-height">
           <h3 className="page-title white-text teal">About</h3>
           <div className="container flow-text">
-            <div class="card">
-              <div class="card-content">
-                <div class="row"></div>
+            <div className="card">
+              <div className="card-content">
+                <div className="row"></div>
                 <p style={{ textAlign: "justify", marginTop:"25px"}}>
                   I am Cesar Augusto Martinez A. I live in Gaithersburg,
                   Maryland. I am a Full-Stack Web Developer with a Bachelor's

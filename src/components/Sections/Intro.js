@@ -6,7 +6,7 @@ function Intro() {
         <div className="overlay"></div>
         <div className="container">
           <h2 style={{ marginTop: "65px" }}>
-            I really enjoy <span class="teal">working hard</span>
+            I really enjoy <span className="teal">working hard</span>
             <br />
             and always
             <span className="underline">do my best</span>.
