@@ -8,14 +8,27 @@ import Experience from "../components/Sections/Experience";
 import Intro from "../components/Sections/Intro";
 import Projects from "../components/Sections/Projects";
 import Skills from "../components/Sections/Skills";
+import Modal from "../components/Modal/Modal";
+
+
+
 function Home(props) {
   const [sidebar, setSidebar] = useState(false);
   const showSidebar = () => setSidebar(!sidebar);
+  const [open, setOpen] = useState(false);
+  
 
+  
+  function handleClickOpen (){
+    setOpen(true);
+  };
+  function handleClose () {
+    setOpen(false);
+  };
 
   return (
     <>
-      <Navbar sidebar={sidebar} isActive={showSidebar} />
+      <Navbar sidebar={sidebar} isActive={showSidebar} handleClickOpen={handleClickOpen}/>
       <Container sidebar={sidebar} isActive={showSidebar}>
         <Intro/> 
         <About/>
@@ -23,7 +36,8 @@ function Home(props) {
         <Projects/>
         <Skills/>
         <Education/>
-        <Contact/>        
+        <Contact/>
+        <Modal open={open} handleClose={handleClose}/>        
       </Container>
 
     </>
