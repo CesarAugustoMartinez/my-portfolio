@@ -13,7 +13,7 @@ import Modal from "../components/Modal/Modal";
 
 
 function Home(props) {
-  const [sidebar, setSidebar] = useState(false);
+  const [sidebar, setSidebar] = useState(true);
   const showSidebar = () => setSidebar(!sidebar);
   const [open, setOpen] = useState(false);
   
