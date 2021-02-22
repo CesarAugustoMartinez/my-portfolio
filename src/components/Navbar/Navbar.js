@@ -17,10 +17,11 @@ function Navbar(props) {
             <i className="material-icons blue-text">menu</i>
           </a>
         <div className="name-title center-align" style={{flex: "auto"}}>
-          <a id="name" href="#main" className="teal-text">
+          <a id="name" href="#main" className="teal-text" onClick={props.handleClickOpen}>
             Cesar A. Martinez -{" "}
-          </a>
+          
           <span className="blue-text light">Full Stack Developer</span>
+          </a>
         </div>
       </nav>
 
@@ -91,7 +92,7 @@ function Navbar(props) {
             <a
               href="#resumeModal"
               className="waves-effect waves-dark grey-text text-darken-3 modal-trigger"
-              onClick={props.modalOpen}
+              onClick={props.handleClickOpen}
             >
               <i className="material-icons small text-darken-3">description</i>
               <span>Resume</span>
