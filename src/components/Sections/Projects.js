@@ -9,7 +9,8 @@ import WeatherDashboard from "../../images/weatherDashboard.png";
 import WorkDayScheduler from "../../images/workDayScheduler.png";
 import EmployeeTracker from "../../images/employeeTracker.gif";
 import MBDirectapp from "../../images/mbdirect.png";
-
+import FitnessTracker from "../../images/fitnessTracker.png";
+import BudgetTracker from "../../images/budgetTracker.png";
 import TrailMixer from "../../images/trailMixer.png";
 
 function Projects() {
@@ -34,12 +35,12 @@ function Projects() {
                 </span>
                 <div style={{ overflowY: "auto !important" }}>
                   <p>
-                    This app connects users to businesses
-                    that meets their criteria. This app allows customers to link
-                    up with businesses directly, in return businesses can
-                    contact, inform, negotiate and deliver customer
-                    satisfaction. This website is fully functional, easy to
-                    navigate, with build in authentication for users.
+                    This app connects users to businesses that meets their
+                    criteria. This app allows customers to link up with
+                    businesses directly, in return businesses can contact,
+                    inform, negotiate and deliver customer satisfaction. This
+                    website is fully functional, easy to navigate, with build in
+                    authentication for users.
                   </p>
                 </div>
               </div>
@@ -73,7 +74,10 @@ function Projects() {
                     Worked with<strong> MERN</strong> model, Node server
                   </li>
                   <li>
-                    <strong>express, axios, sequelize, socket.io, mysql12  </strong> npm packages
+                    <strong>
+                      express, axios, sequelize, socket.io, mysql12{" "}
+                    </strong>{" "}
+                    npm packages
                   </li>
                 </ul>
                 <div className="card-action">
@@ -244,6 +248,163 @@ function Projects() {
                   </a>
                   <a
                     href="https://github.com/chernanma/BikeShopApp"
+                    rel="noreferrer"
+                    target="_blank"
+                    data-position="top"
+                    data-tooltip="View Repository"
+                    className="btn-floating btn-large cyan tooltipped tooltipped"
+                  >
+                    <i className="fa fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- Fitness Tracker App--> */}
+          <div className="col s12 m6 l4">
+            <div className="card medium" style={{ overflow: "visible" }}>
+              <div className="card-image waves-effect waves-block waves-light">
+                <img
+                  className="activator"
+                  src={FitnessTracker}
+                  alt="Fitness Tracker"
+                />
+              </div>
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">
+                  Fitness Tracker
+                  <i className="material-icons right">more_vert</i>
+                </span>
+                <div style={{ overflowY: "auto !important" }}>
+                  <p>
+                    The goal of this app is to create a workout tracker. This
+                    app will require to create Mongo database with a Mongoose
+                    schema and handle route with Express. The user will be able
+                    to create and tack daily workouts. Also It will be able to
+                    log multiple exercises in a workout on a given day.
+                  </p>
+                </div>
+              </div>
+              <div
+                className="card-reveal"
+                style={{ display: "none", transform: "translateY(0%)" }}
+              >
+                <span className="card-title grey-text text-darken-4">
+                  Technologies<i className="material-icons right">close</i>
+                </span>
+                <ul>
+                  <li>
+                    <strong>JavaScript</strong> back-end
+                  </li>
+                  <li>
+                    <strong>Node.js</strong> back-end
+                  </li>
+                  <li>
+                    <strong>HTML</strong> front-end
+                  </li>
+                  <li>
+                    <strong>Bootstrap</strong> CSS Framework
+                  </li>
+                  <li>
+                    <strong>Mongodb</strong> database
+                  </li>
+                  <li>
+                    <strong>Express, Mongoose</strong> npm packages
+                  </li>
+                </ul>
+                <div className="card-action">
+                  <a
+                    href="https://peaceful-dusk-42448.herokuapp.com/?id=5fe026173fc08b0f4fe3d5a9"
+                    rel="noreferrer"
+                    target="_blank"
+                    data-position="top"
+                    data-tooltip="View Online"
+                    className="btn-floating btn-large cyan tooltipped"
+                  >
+                    <i className="fa fa-external-link"></i>
+                  </a>
+                  <a
+                    href="https://github.com/CesarAugustoMartinez/Workout-Tracker"
+                    rel="noreferrer"
+                    target="_blank"
+                    data-position="top"
+                    data-tooltip="View Repository"
+                    className="btn-floating btn-large cyan tooltipped tooltipped"
+                  >
+                    <i className="fa fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- Budget Trackers App--> */}
+          <div className="col s12 m6 l4">
+            <div className="card medium" style={{ overflow: "visible" }}>
+              <div className="card-image waves-effect waves-block waves-light">
+                <img
+                  className="activator"
+                  src={BudgetTracker}
+                  alt="Budget Tracker"
+                />
+              </div>
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">
+                  Online/Offline Budget Tracker
+                  <i className="material-icons right">more_vert</i>
+                </span>
+                <div style={{ overflowY: "auto !important" }}>
+                  <p>
+                    This app will require to create Mongo database with a
+                    Mongoose schema and handle route with Express. The user will
+                    be able to add expenses and deposits to their budget with or
+                    without a connection. When entering transactions offline,
+                    they should populate the total when brought back online.
+                  </p>
+                </div>
+              </div>
+              <div
+                className="card-reveal"
+                style={{ display: "none", transform: "translateY(0%)" }}
+              >
+                <span className="card-title grey-text text-darken-4">
+                  Technologies<i className="material-icons right">close</i>
+                </span>
+                <ul>
+                  <li>
+                    <strong>JavaScript</strong> back-end
+                  </li>
+                  <li>
+                    <strong>Node.js</strong> back-end
+                  </li>
+                  <li>
+                    <strong>HTML</strong> front-end
+                  </li>
+                  <li>
+                    <strong>Bootstrap</strong> CSS Framework
+                  </li>
+                  <li>
+                    <strong>Mongodb</strong> database
+                  </li>
+                  <li>
+                    <strong>Express, Mongoose</strong> npm packages
+                  </li>
+                  <li>
+                    <strong>Service Workers</strong>
+                  </li>
+                </ul>
+                <div className="card-action">
+                  <a
+                    href="https://glacial-wildwood-83860.herokuapp.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                    data-position="top"
+                    data-tooltip="View Online"
+                    className="btn-floating btn-large cyan tooltipped"
+                  >
+                    <i className="fa fa-external-link"></i>
+                  </a>
+                  <a
+                    href="https://github.com/CesarAugustoMartinez/Online-Offline-Budget-Trackers"
                     rel="noreferrer"
                     target="_blank"
                     data-position="top"
