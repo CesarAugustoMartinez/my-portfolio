@@ -21,11 +21,7 @@ import cplusplus from "../../images/skills/c++.png";
 import net from "../../images/skills/net.png";
 import socketio from "../../images/skills/socketio.png";
 import redux from "../../images/skills/redux.png";
-import axios from "../../images/skills/axios.png"
-
-
-
-
+import axios from "../../images/skills/axios.png";
 
 
 function Skills() {
@@ -35,7 +31,7 @@ function Skills() {
       <div className="container">
         <div className="card">
           <div className="card-content">
-            <h4 className="blue-text light">FRONT-END</h4>
+            <h4 className="blue-text light">Front-End</h4>
             <div className="row text-center">
               <div className="col s4 m2">
                 <img alt="" src={react} className="responsive-img" />
