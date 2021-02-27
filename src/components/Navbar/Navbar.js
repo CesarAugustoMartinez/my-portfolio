@@ -103,7 +103,7 @@ function Navbar(props) {
           </li>
           <li>
             <a href="#Home" className="subheader">
-              ©Copyright - 2020
+              ©Copyright - 2021
             </a>
           </li>
         </ul>
