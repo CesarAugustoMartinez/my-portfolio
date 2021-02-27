@@ -243,6 +243,11 @@
       text-align: center;
       margin: 0 auto;
     }
+    #about {
+      height: auto;
+    }
+
+   
   }
   
   
@@ -265,7 +270,14 @@
   #about {
     height: auto;
   }
-   
+
+  .active {
+    margin-left: 0px;
+    transition: 0.2s;
+}
+  .sidenav {
+    width: 190px;
+  }
     
   }
   
