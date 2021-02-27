@@ -1,70 +1,176 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![picture](src/images/PortfolioIndex.png)
 
-## Available Scripts
+Link : [Project Link](https://cesar-augusto-martinez.herokuapp.com/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Description](#description)
+- [How to Use](#how-to-use)
+- [Screenshots](#screenshots)
+- [References](#references)
+- [License](#license)
+- [Author Info](#author-info)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The goal of this app is the use of React and Materilize CSS Framework to create a mobile responsive portfolio. A Materialize grid system has been implemented to add styling which delivers a very good look to the user. Elements as container, rows, and columns were used in the develoment of this project as well. 
 
-### `npm run build`
+##### Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Html
+- Javascript
+- React.js
+- Visual Studio Code
+- CSS
+- Materialize
+- Material - UI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Code sample - React.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+``` js
 
-### `npm run eject`
+  import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ReactDOM.render( 
+    <App />,
+  document.getElementById('root')
+);
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Code sample - Components in React
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```js
 
-## Learn More
+import React, { useState} from "react";
+import Container from "../components/Container/Container";
+import Navbar from "../components/Navbar/Navbar";
+import About from "../components/Sections/About";
+import Contact from "../components/Sections/Contact";
+import Education from "../components/Sections/Education";
+import Experience from "../components/Sections/Experience";
+import Intro from "../components/Sections/Intro";
+import Projects from "../components/Sections/Projects";
+import Skills from "../components/Sections/Skills";
+import Modal from "../components/Modal/Modal";
+function Home(props) {
+  const [sidebar, setSidebar] = useState(true);
+  const showSidebar = () => setSidebar(!sidebar);
+  const [open, setOpen] = useState(false);  
+  function handleClickOpen (){
+    setOpen(true);
+  };
+  function handleClose () {
+    setOpen(false);
+  };
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  return (
+    <>
+      <Navbar sidebar={sidebar} isActive={showSidebar} handleClickOpen={handleClickOpen}/>
+      <Container sidebar={sidebar} isActive={showSidebar}>
+        <Intro/> 
+        <About/>
+        <Experience/>
+        <Projects/>
+        <Skills/>
+        <Education/>
+        <Contact/>
+        <Modal open={open} handleClose={handleClose}/>        
+      </Container>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    </>
+  );
+}
 
-### Code Splitting
+export default Home;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
 
-### Analyzing the Bundle Size
+Code sample - CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```css
 
-### Making a Progressive Web App
+.active {
+      margin-left: 300px;
+      transition: 0.2s;
+  }
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  header, main, footer {
+    padding-left: 0px;
+  }
+  a {
+    color: #009688;
+  }
+  .section {
+    padding-bottom: 30px;
+    padding-top: 0;
+    position: relative;
+  }
+  .full-height {
+    height: 100vh;
+  }
+  
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## How To Use
 
-### Deployment
+This web application has different sections. These have different types of information. Each of them have elements like menu, photos, links, social media buttons. You can interact between these sections components going from one to oher one easy. Also you can access to them through mobile, desktop and tablet devices, having a responsive website. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Screenshots
 
-### `npm run build` fails to minify
+- Experience page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![picture](src/images/Experience.png)
+
+- Projects page
+
+![picture](src/images/Projects.png)
+
+- Skills page
+
+![picture](src/images/Skills.png)
+
+- Resume to download
+
+![picture](src/images/Resume.png)
+
+
+[Back To The Top](#Portfolio)
+
+---
+
+## References
+
+- w3school -- [Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/)
+- Materialize -- [Grid system](https://materializecss.com/)
+
+[Back To The Top](#Portfolio)
+
+---
+
+## License
+
+Copyright (c) [2020 - 2021] [Cesar A Martinez]
+
+[Back To The Top](#Portfolio)
+
+---
+
+## Author Info
+
+- Twitter -- [@cesaguma](https://twitter.com/cesaguma)
+- Linkedin -- [Cesar A Martinez](https://www.linkedin.com/in/cesar-augusto-martinez-auquilla-03934a16b/)
+
+[Back To The Top](#Portfolio)
+
