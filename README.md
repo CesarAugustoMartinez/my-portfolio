@@ -2,7 +2,7 @@
 
 ![picture](src/images/PortfolioIndex.png)
 
-Link : [Project Link](https://cesar-augusto-martinez.herokuapp.com/)
+Link : [Project Link](https://cesaraugustomartinez.github.io/my-portfolio/)
 
 ---
 
