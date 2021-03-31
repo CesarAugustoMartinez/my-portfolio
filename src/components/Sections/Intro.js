@@ -9,7 +9,7 @@ function Intro() {
             I really enjoy <span className="teal">working hard</span>
             <br />
             and always
-            <span className="underline">do my best</span>.
+            <span className="underline"> do my best</span>.
           </h2>
         </div>
       </section>
