@@ -22,6 +22,7 @@ import net from "../../images/skills/net.png";
 import socketio from "../../images/skills/socketio.png";
 import redux from "../../images/skills/redux.png";
 import axios from "../../images/skills/axios.png";
+import aws from "../../images/skills/Aws.png";
 
 
 function Skills() {
@@ -137,6 +138,10 @@ function Skills() {
               <div className="col s4 m2">
                 <img alt="" src={visualstudio} className="responsive-img" style={{height:"100px", paddingTop:"20px"}}/>
                 Visual Studio 
+              </div>
+              <div className="col s4 m2">
+                <img alt="" src={aws} className="responsive-img" style={{height:"100px", paddingTop:"20px"}}/>
+                Amazon Web Service 
               </div>
               <div className="col s4 m2">
                 <img alt="" src={photoshop} className="responsive-img" />
