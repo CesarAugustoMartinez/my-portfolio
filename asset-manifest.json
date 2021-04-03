@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2456a818.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.73312e91.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.73312e91.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.a957f2e5.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.a957f2e5.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.4325a85b.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.4325a85b.js.map",
     "static/js/2.5337fc71.chunk.js": "/my-portfolio/static/js/2.5337fc71.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/Msportswear.e52e0cce.png": "/my-portfolio/static/media/Msportswear.e52e0cce.png",
     "static/media/ResumeCesarMartinez.e8c77d93.pdf": "/my-portfolio/static/media/ResumeCesarMartinez.e8c77d93.pdf",
     "static/media/axios.6354e945.png": "/my-portfolio/static/media/axios.6354e945.png",
-    "static/media/bikeShopApp.cec05a4b.png": "/my-portfolio/static/media/bikeShopApp.cec05a4b.png",
+    "static/media/bikeShopApp.3b8ec762.png": "/my-portfolio/static/media/bikeShopApp.3b8ec762.png",
     "static/media/body-bg.ec066c99.png": "/my-portfolio/static/media/body-bg.ec066c99.png",
     "static/media/bootstrap.aaba30bc.png": "/my-portfolio/static/media/bootstrap.aaba30bc.png",
     "static/media/budgetTracker.eedc3982.png": "/my-portfolio/static/media/budgetTracker.eedc3982.png",
@@ -50,6 +50,6 @@
     "static/js/runtime-main.4325a85b.js",
     "static/js/2.5337fc71.chunk.js",
     "static/css/main.2456a818.chunk.css",
-    "static/js/main.73312e91.chunk.js"
+    "static/js/main.a957f2e5.chunk.js"
   ]
 }
