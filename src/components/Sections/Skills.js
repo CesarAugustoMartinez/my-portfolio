@@ -141,7 +141,7 @@ function Skills() {
               </div>
               <div className="col s4 m2">
                 <img alt="" src={aws} className="responsive-img" style={{height:"100px", paddingTop:"20px"}}/>
-                Amazon Web Service 
+                AWS 
               </div>
               <div className="col s4 m2">
                 <img alt="" src={photoshop} className="responsive-img" />

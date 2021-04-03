@@ -105,6 +105,91 @@ function Projects() {
               </div>
             </div>
           </div>
+          {/* <!-- Bike Shop App--> */}
+          <div className="col s12 m6 l4">
+            <div className="card medium" style={{ overflow: "visible" }}>
+              <div className="card-image waves-effect waves-block waves-light">
+                <img
+                  className="activator"
+                  src={BikeShopApp}
+                  alt="Bike Shop App"
+                />
+              </div>
+              <div className="card-content">
+                <span className="card-title activator grey-text text-darken-4">
+                  Bike Shop App<i className="material-icons right">more_vert</i>
+                </span>
+                <div style={{ overflowY: "auto !important" }}>
+                  <p>
+                    User will be able to search for bicycle types, search for
+                    parts and accessories, and request repair services for
+                    bicycles. The app will also allow the owner and employee to
+                    perform the CRUD operations for the products, orders,
+                    employees, and customers.
+                  </p>
+                </div>
+              </div>
+              <div
+                className="card-reveal"
+                style={{ display: "none", transform: "translateY(0%)" }}
+              >
+                <span className="card-title grey-text text-darken-4">
+                  Technologies<i className="material-icons right">close</i>
+                </span>
+                <ul>
+                  <li>
+                    <strong>jQuery</strong> back-end
+                  </li>
+                  <li>
+                    <strong>JavaScript</strong>
+                  </li>
+                  <li>
+                    <strong>node.js</strong>
+                  </li>
+                  <li>
+                    <strong>HTML</strong> front-end
+                  </li>
+                  <li>
+                    <strong>MySQL</strong> database
+                  </li>
+                  <li>
+                    <strong>Bootstrap</strong> CSS Framework
+                  </li>
+                  <li>
+                    Worked with<strong> MVC</strong> model, Node server
+                  </li>
+                  <li>
+                    <strong>Express, Handlebars</strong> npm packages
+                  </li>
+                  <li>
+                    <strong>S3 bucket </strong> AWS
+                  </li>
+                </ul>
+                <div className="card-action">
+                  <a
+                    href="https://new-bike-shop.herokuapp.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                    data-position="top"
+                    data-tooltip="View Online"
+                    className="btn-floating btn-large cyan tooltipped"
+                  >
+                    <i className="fa fa-external-link"></i>
+                  </a>
+                  <a
+                    href="https://github.com/chernanma/New-Bike-Shop"
+                    rel="noreferrer"
+                    target="_blank"
+                    data-position="top"
+                    data-tooltip="View Repository"
+                    className="btn-floating btn-large cyan tooltipped tooltipped"
+                  >
+                    <i className="fa fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           {/* <!-- Mixer Trail--> */}
           <div className="col s12 m6 l4">
             <div className="card medium" style={{ overflow: "visible" }}>
@@ -177,89 +262,7 @@ function Projects() {
                 </div>
               </div>
             </div>
-          </div>
-          {/* <!-- Bike Shop App--> */}
-          <div className="col s12 m6 l4">
-            <div className="card medium" style={{ overflow: "visible" }}>
-              <div className="card-image waves-effect waves-block waves-light">
-                <img
-                  className="activator"
-                  src={BikeShopApp}
-                  alt="Bike Shop App"
-                />
-              </div>
-              <div className="card-content">
-                <span className="card-title activator grey-text text-darken-4">
-                  Bike Shop App<i className="material-icons right">more_vert</i>
-                </span>
-                <div style={{ overflowY: "auto !important" }}>
-                  <p>
-                    User will be able to search for bicycle types, search for
-                    parts and accessories, and request repair services for
-                    bicycles. The app will also allow the owner and employee to
-                    perform the CRUD operations for the products, orders,
-                    employees, and customers.
-                  </p>
-                </div>
-              </div>
-              <div
-                className="card-reveal"
-                style={{ display: "none", transform: "translateY(0%)" }}
-              >
-                <span className="card-title grey-text text-darken-4">
-                  Technologies<i className="material-icons right">close</i>
-                </span>
-                <ul>
-                  <li>
-                    <strong>jQuery</strong> back-end
-                  </li>
-                  <li>
-                    <strong>JavaScript</strong>
-                  </li>
-                  <li>
-                    <strong>node.js</strong>
-                  </li>
-                  <li>
-                    <strong>HTML</strong> front-end
-                  </li>
-                  <li>
-                    <strong>MySQL</strong> database
-                  </li>
-                  <li>
-                    <strong>Bootstrap</strong> CSS Framework
-                  </li>
-                  <li>
-                    Worked with<strong> MVC</strong> model, Node server
-                  </li>
-                  <li>
-                    <strong>Express, Handlebars</strong> npm packages
-                  </li>
-                </ul>
-                <div className="card-action">
-                  <a
-                    href="https://vast-woodland-01889.herokuapp.com/"
-                    rel="noreferrer"
-                    target="_blank"
-                    data-position="top"
-                    data-tooltip="View Online"
-                    className="btn-floating btn-large cyan tooltipped"
-                  >
-                    <i className="fa fa-external-link"></i>
-                  </a>
-                  <a
-                    href="https://github.com/chernanma/BikeShopApp"
-                    rel="noreferrer"
-                    target="_blank"
-                    data-position="top"
-                    data-tooltip="View Repository"
-                    className="btn-floating btn-large cyan tooltipped tooltipped"
-                  >
-                    <i className="fa fa-github"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div>          
           {/* <!-- Fitness Tracker App--> */}
           <div className="col s12 m6 l4">
             <div className="card medium" style={{ overflow: "visible" }}>
