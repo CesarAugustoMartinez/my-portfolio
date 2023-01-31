@@ -23,7 +23,10 @@ import socketio from "../../images/skills/socketio.png";
 import redux from "../../images/skills/redux.png";
 import axios from "../../images/skills/axios.png";
 import aws from "../../images/skills/Aws.png";
-
+import azure from "../../images/skills/azure.png";
+import salesforce from "../../images/skills/salesforce.png";
+import soql from "../../images/skills/soql.png";
+import apexlwc from "../../images/skills/apexlwc.png";
 
 function Skills() {
   return (
@@ -58,6 +61,10 @@ function Skills() {
                 <img alt="" src={materialize} className="responsive-img" />
                 Materialize
               </div>
+              <div className="col s4 m2" style={{ paddingTop: "20px" }}>
+                <img alt="" src={apexlwc} className="responsive-img" />
+                LWC - VisualForce
+              </div>
             </div>
           </div>
         </div>
@@ -65,8 +72,13 @@ function Skills() {
           <div className="card-content">
             <h4 className="blue-text light">Back-End</h4>
             <div className="row text-center">
-            <div className="col s4 m2">
-                <img alt="" src={cplusplus} className="responsive-img" style={{height:"100px", padding:"30px"}}/>
+              <div className="col s4 m2">
+                <img
+                  alt=""
+                  src={cplusplus}
+                  className="responsive-img"
+                  style={{ height: "100px", padding: "30px" }}
+                />
                 C++
               </div>
               <div className="col s4 m2">
@@ -82,7 +94,12 @@ function Skills() {
                 Node
               </div>
               <div className="col s4 m2">
-                <img alt="" src={net} className="responsive-img" style={{height:"100px", padding:"20px"}}/>
+                <img
+                  alt=""
+                  src={net}
+                  className="responsive-img"
+                  style={{ height: "100px", padding: "20px" }}
+                />
                 .Net
               </div>
               <div className="col s4 m2">
@@ -90,11 +107,21 @@ function Skills() {
                 Sequelize
               </div>
               <div className="col s4 m2">
-                <img alt="" src={axios} className="responsive-img" style={{height:"100px", padding:"30px"}}/>
+                <img
+                  alt=""
+                  src={axios}
+                  className="responsive-img"
+                  style={{ height: "100px", padding: "30px" }}
+                />
                 Axios
               </div>
               <div className="col s4 m2">
-                <img alt="" src={socketio} className="responsive-img" style={{paddingTop:"20px"}}/>
+                <img
+                  alt=""
+                  src={socketio}
+                  className="responsive-img"
+                  style={{ paddingTop: "20px" }}
+                />
                 Socket.io
               </div>
             </div>
@@ -105,16 +132,30 @@ function Skills() {
             <h4 className="blue-text light">Database</h4>
             <div className="row text-center">
               <div className="col s4 m2">
+                <img
+                  alt=""
+                  src={sql}
+                  className="responsive-img"
+                  style={{ height: "100px", paddingTop: "20px" }}
+                />
+                SQL
+              </div>
+              <div className="col s4 m2">
+                <img
+                  alt=""
+                  src={soql}
+                  className="responsive-img"
+                  style={{ height: "100px", paddingTop: "20px" }}
+                />
+                SQL
+              </div>
+              <div className="col s4 m2">
                 <img alt="" src={mongodb} className="responsive-img" />
                 MongoDB
               </div>
               <div className="col s4 m2">
                 <img alt="" src={mysql} className="responsive-img" />
                 MySQL
-              </div>
-              <div className="col s4 m2">
-                <img alt="" src={sql} className="responsive-img" style={{height:"100px", paddingTop:"20px"}}/>
-                SQL
               </div>
             </div>
           </div>
@@ -124,24 +165,62 @@ function Skills() {
             <h4 className="blue-text light">Other</h4>
             <div className="row text-center">
               <div className="col s4 m2">
-                <img alt="" src={github} className="responsive-img" style={{height:"100px", paddingTop:"20px"}}/>
+                <img
+                  alt=""
+                  src={salesforce}
+                  className="responsive-img"
+                  style={{ height: "100px", paddingTop: "20px" }}
+                />
+                Salesforce
+              </div>
+              <div className="col s4 m2">
+                <img
+                  alt=""
+                  src={azure}
+                  className="responsive-img"
+                  style={{ height: "100px", paddingTop: "20px" }}
+                />
+                Azure
+              </div>
+              <div className="col s4 m2">
+                <img
+                  alt=""
+                  src={github}
+                  className="responsive-img"
+                  style={{ height: "100px", paddingTop: "20px" }}
+                />
                 Github
               </div>
               <div className="col s4 m2">
-                <img alt="" src={npm} className="responsive-img" style={{height:"100px", paddingTop:"30px"}}/>
+                <img
+                  alt=""
+                  src={npm}
+                  className="responsive-img"
+                  style={{ height: "100px", paddingTop: "30px" }}
+                />
                 NPM
               </div>
               <div className="col s4 m2">
-                <img alt="" src={heroku} className="responsive-img"  />
+                <img alt="" src={heroku} className="responsive-img" />
                 Heroku
               </div>
               <div className="col s4 m2">
-                <img alt="" src={visualstudio} className="responsive-img" style={{height:"100px", paddingTop:"20px"}}/>
-                Visual Studio 
+                <img
+                  alt=""
+                  src={visualstudio}
+                  className="responsive-img"
+                  style={{ height: "100px", paddingTop: "20px" }}
+                />
+                Visual Studio
               </div>
               <div className="col s4 m2">
-                <img alt="" src={aws} className="responsive-img" style={{height:"100px", paddingTop:"20px"}}/>
-                AWS 
+                <img
+                  alt=""
+                  src={aws}
+                  className="responsive-img"
+                  style={{ height: "100px", paddingTop: "20px" }}
+                />
+                AWS
               </div>
               <div className="col s4 m2">
                 <img alt="" src={photoshop} className="responsive-img" />
