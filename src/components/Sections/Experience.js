@@ -21,8 +21,8 @@ function Experience() {
                   <img
                     alt="Healthwell foundation logo"
                     src={HWFLogo}
-                    className="responsive-img center-block"
-                    style={{ display: "initial" }}
+                    className="responsive-img center-block companyLogos"
+                    style={{ display: "initial", width: "100px" }}
                   />
                 </a>
               </div>
@@ -84,8 +84,8 @@ function Experience() {
                   <img
                     alt="Impresst logo"
                     src={ImpresstLogo}
-                    className="responsive-img center-block"
-                    style={{ display: "initial" }}
+                    className="responsive-img center-block companyLogos"
+                    style={{ display: "initial", width: "100px" }}
                   />
                 </a>
               </div>
