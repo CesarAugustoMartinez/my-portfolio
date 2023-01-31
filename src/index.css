@@ -5,4 +5,5 @@
     .jobtitle {
       font-size: 0.9rem!important;
     }
+    iframe {margin:0; padding:0; width:100%; height:100%;}
   }
