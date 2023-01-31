@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a42faeb0.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.4d45317c.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.4d45317c.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.99af0e13.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.90fcbda4.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.90fcbda4.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.4325a85b.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.4325a85b.js.map",
     "static/js/2.5337fc71.chunk.js": "/my-portfolio/static/js/2.5337fc71.chunk.js",
     "static/js/2.5337fc71.chunk.js.map": "/my-portfolio/static/js/2.5337fc71.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.a42faeb0.chunk.css.map": "/my-portfolio/static/css/main.a42faeb0.chunk.css.map",
+    "static/css/main.99af0e13.chunk.css.map": "/my-portfolio/static/css/main.99af0e13.chunk.css.map",
     "static/js/2.5337fc71.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.5337fc71.chunk.js.LICENSE.txt",
     "static/media/Aws.b621fa1c.png": "/my-portfolio/static/media/Aws.b621fa1c.png",
     "static/media/HWFLogo.ac9eecde.png": "/my-portfolio/static/media/HWFLogo.ac9eecde.png",
@@ -53,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.4325a85b.js",
     "static/js/2.5337fc71.chunk.js",
-    "static/css/main.a42faeb0.chunk.css",
-    "static/js/main.4d45317c.chunk.js"
+    "static/css/main.99af0e13.chunk.css",
+    "static/js/main.90fcbda4.chunk.js"
   ]
 }
