@@ -119,7 +119,7 @@ function Experience() {
               </li>
               <li>
                 Implemented database structure for the web application and
-                developing mobile app.
+                mobile apps.
               </li>
               <li>
                 Tools: ASP.Net, Azure, DevOps, Node.js, SQL Server, JS, jQuery,
@@ -143,6 +143,7 @@ function Experience() {
               <li>
                 Multitenant structure to handle web applications, and databases
               </li>
+              <li>Implementation of 2FA and MFA</li>
             </ul>
           </div>
           <div className="card-action">
