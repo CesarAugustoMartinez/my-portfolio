@@ -2,4 +2,7 @@
     .companyLogos {
       width: 60px!important;; 
     }
+    .jobtitle {
+      font-size: 0.9rem!important;
+    }
   }

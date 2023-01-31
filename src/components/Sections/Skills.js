@@ -46,10 +46,6 @@ function Skills() {
                 HTML5
               </div>
               <div className="col s4 m2">
-                <img alt="" src={redux} className="responsive-img" />
-                Redux
-              </div>
-              <div className="col s4 m2">
                 <img alt="" src={css3} className="responsive-img" />
                 CSS3
               </div>
@@ -65,6 +61,10 @@ function Skills() {
                 <img alt="" src={apexlwc} className="responsive-img" />
                 LWC - VisualForce
               </div>
+              {/* <div className="col s4 m2">
+                <img alt="" src={redux} className="responsive-img" />
+                Redux
+              </div> */}
             </div>
           </div>
         </div>

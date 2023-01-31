@@ -41,7 +41,7 @@ function Experience() {
                 </p>
               </div>
             </div>
-            <div className="role grey-text">
+            <div className="role grey-text jobtitle">
               Salesforce Developer Consultant
             </div>
             <p>
@@ -104,7 +104,9 @@ function Experience() {
                 </p>
               </div>
             </div>
-            <div className="role grey-text">Software Development Manager</div>
+            <div className="role grey-text jobtitle">
+              Software Development Manager
+            </div>
             <p>
               <em className="grey-text">
                 Website developer, web services and database architect
@@ -182,7 +184,9 @@ function Experience() {
                 </p>
               </div>
             </div>
-            <div className="role grey-text">Full-Stack Web Developer</div>
+            <div className="role grey-text jobtitle">
+              Full-Stack Web Developer
+            </div>
             <p>
               <em className="grey-text">Website developer and administrator</em>
             </p>
@@ -251,7 +255,9 @@ function Experience() {
                 </p>
               </div>
             </div>
-            <div className="role grey-text">General Manager, Co-Owner</div>
+            <div className="role grey-text jobtitle">
+              General Manager, Co-Owner
+            </div>
             <p>
               <em className="grey-text">
                 Created family-owned company while studying for Master’s degree
@@ -313,7 +319,7 @@ function Experience() {
                 </p>
               </div>
             </div>
-            <div className="role grey-text">System Engineer</div>
+            <div className="role grey-text jobtitle">System Engineer</div>
             <p>
               <em className="grey-text">
                 Website developer and Network administrator
