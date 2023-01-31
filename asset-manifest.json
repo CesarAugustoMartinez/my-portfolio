@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.2456a818.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.28adde7c.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.28adde7c.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.32816b42.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.32816b42.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.4325a85b.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.4325a85b.js.map",
     "static/js/2.5337fc71.chunk.js": "/my-portfolio/static/js/2.5337fc71.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/HWFLogo.ac9eecde.png": "/my-portfolio/static/media/HWFLogo.ac9eecde.png",
     "static/media/Me.15124b6e.jpg": "/my-portfolio/static/media/Me.15124b6e.jpg",
     "static/media/Msportswear.e52e0cce.png": "/my-portfolio/static/media/Msportswear.e52e0cce.png",
-    "static/media/ResumeCesarMartinez.6f0cc95f.pdf": "/my-portfolio/static/media/ResumeCesarMartinez.6f0cc95f.pdf",
+    "static/media/ResumeCesarMartinez.24204186.pdf": "/my-portfolio/static/media/ResumeCesarMartinez.24204186.pdf",
     "static/media/apexlwc.a06080f0.png": "/my-portfolio/static/media/apexlwc.a06080f0.png",
     "static/media/axios.6354e945.png": "/my-portfolio/static/media/axios.6354e945.png",
     "static/media/azure.c1c133ec.png": "/my-portfolio/static/media/azure.c1c133ec.png",
@@ -54,6 +54,6 @@
     "static/js/runtime-main.4325a85b.js",
     "static/js/2.5337fc71.chunk.js",
     "static/css/main.2456a818.chunk.css",
-    "static/js/main.28adde7c.chunk.js"
+    "static/js/main.32816b42.chunk.js"
   ]
 }
