@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.3e507b42.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.e252eb62.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.e252eb62.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.4325a85b.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.4325a85b.js.map",
-    "static/js/2.5337fc71.chunk.js": "/my-portfolio/static/js/2.5337fc71.chunk.js",
-    "static/js/2.5337fc71.chunk.js.map": "/my-portfolio/static/js/2.5337fc71.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.684d47a2.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.deee2653.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.deee2653.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.d683e274.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.d683e274.js.map",
+    "static/js/2.10cbe5be.chunk.js": "/my-portfolio/static/js/2.10cbe5be.chunk.js",
+    "static/js/2.10cbe5be.chunk.js.map": "/my-portfolio/static/js/2.10cbe5be.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.3e507b42.chunk.css.map": "/my-portfolio/static/css/main.3e507b42.chunk.css.map",
-    "static/js/2.5337fc71.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.5337fc71.chunk.js.LICENSE.txt",
+    "static/css/main.684d47a2.chunk.css.map": "/my-portfolio/static/css/main.684d47a2.chunk.css.map",
+    "static/js/2.10cbe5be.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.10cbe5be.chunk.js.LICENSE.txt",
     "static/media/Aws.b621fa1c.png": "/my-portfolio/static/media/Aws.b621fa1c.png",
     "static/media/HWFLogo.ac9eecde.png": "/my-portfolio/static/media/HWFLogo.ac9eecde.png",
     "static/media/Me.15124b6e.jpg": "/my-portfolio/static/media/Me.15124b6e.jpg",
     "static/media/Msportswear.e52e0cce.png": "/my-portfolio/static/media/Msportswear.e52e0cce.png",
-    "static/media/ResumeCesarMartinez.24204186.pdf": "/my-portfolio/static/media/ResumeCesarMartinez.24204186.pdf",
+    "static/media/ResumeCesarMartinez.7814ab69.pdf": "/my-portfolio/static/media/ResumeCesarMartinez.7814ab69.pdf",
     "static/media/apexlwc.a06080f0.png": "/my-portfolio/static/media/apexlwc.a06080f0.png",
     "static/media/axios.6354e945.png": "/my-portfolio/static/media/axios.6354e945.png",
     "static/media/azure.c1c133ec.png": "/my-portfolio/static/media/azure.c1c133ec.png",
@@ -51,9 +51,9 @@
     "static/media/workDayScheduler.140daf8c.png": "/my-portfolio/static/media/workDayScheduler.140daf8c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4325a85b.js",
-    "static/js/2.5337fc71.chunk.js",
-    "static/css/main.3e507b42.chunk.css",
-    "static/js/main.e252eb62.chunk.js"
+    "static/js/runtime-main.d683e274.js",
+    "static/js/2.10cbe5be.chunk.js",
+    "static/css/main.684d47a2.chunk.css",
+    "static/js/main.deee2653.chunk.js"
   ]
 }
